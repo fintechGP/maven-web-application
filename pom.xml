@@ -145,6 +145,12 @@
 				</configuration>
 			</plugin>
 			
+			<dependency>
+   				 <groupId>org.apache.maven.plugins</groupId>
+  				  <artifactId>maven-release-plugin</artifactId>
+   				 <version>3.0.0-M6</version>
+			</dependency>
+			
 </plugins>
 	</build>
 	
