@@ -22,7 +22,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:172.0.8.127:4000/</sonar.host.url>
+		<sonar.host.url>http:172.29.224.1:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>class28</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -108,7 +108,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository</name>
-	      <url>http://172.0.8.127:5000/content/repositories/ebay/</url>
+	      <url>http://localhost:8081/repository/ebay-ci/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
